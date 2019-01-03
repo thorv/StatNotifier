@@ -1,0 +1,67 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="StatNotifier.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PortName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM1</Value>
+    </Setting>
+    <Setting Name="BaudRate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9600</Value>
+    </Setting>
+    <Setting Name="threshold" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">190</Value>
+    </Setting>
+    <Setting Name="exp1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">:Sorting.*[\r\n]*.*[\r\n]*.*[\r\n]*.*:0eps</Value>
+    </Setting>
+    <Setting Name="exp2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">:Ready</Value>
+    </Setting>
+    <Setting Name="exp3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.</Value>
+    </Setting>
+    <Setting Name="removeSpace" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="accumlate1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="accumlate2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="accumlate3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="script1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//mouse move 100,100
+mm100,100
+// mouse click left
+ml
+// wait time 3.5 sec
+wt3.5
+// text send abc
+ts"abc"
+//in one line
+mm100,100;ml;wt3.5;st"abc"
+</Value>
+    </Setting>
+    <Setting Name="script2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//</Value>
+    </Setting>
+    <Setting Name="script3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//</Value>
+    </Setting>
+    <Setting Name="script4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">//</Value>
+    </Setting>
+    <Setting Name="watcherPos" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">50, 50</Value>
+    </Setting>
+    <Setting Name="watcherSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">210, 105</Value>
+    </Setting>
+    <Setting Name="samplePeriod" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
